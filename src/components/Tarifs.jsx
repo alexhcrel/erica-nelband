@@ -1,19 +1,11 @@
-import React from "react";
-import { loremIpsum } from 'lorem-ipsum';
+import Description from "./Description.jsx";
 import "../styles/home.css";
 
 const Projet = () => {
-  const loremText = loremIpsum({
-    count: 2,        // Nombre de paragraphes à générer
-    units: 'paragraphs', // Unité de texte à générer (paragraphes, mots, phrases, etc.)
-    format: 'html',  // Format du texte généré (peut être 'plain' ou 'html')
-  });
-
   return (
-    <section className="mes_tarifs">
-      <div className="description">
-        <h1>Mes tarifs</h1>
-      <p dangerouslySetInnerHTML={{ __html: loremText }} />
+    <section className="mes_tarifs" id="mes_tarifs">
+      <div className="presentation" style={{ display: "flex", flexDirection: "column" }}><h1>MES TARIFS</h1>
+      <Description />
       </div>
       <div className="image"></div>
     </section>

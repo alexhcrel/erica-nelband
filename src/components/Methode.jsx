@@ -1,19 +1,11 @@
-import React from "react";
-import { loremIpsum } from 'lorem-ipsum';
+import Description from "./Description.jsx";
 import "../styles/home.css";
 
 const Methode = () => {
-  const loremText = loremIpsum({
-    count: 2,        // Nombre de paragraphes à générer
-    units: 'paragraphs', // Unité de texte à générer (paragraphes, mots, phrases, etc.)
-    format: 'html',  // Format du texte généré (peut être 'plain' ou 'html')
-  });
-
   return (
-    <section className="ma_methode">
-      <div className="description">
-        <h1>MA METHODE</h1>
-      <p dangerouslySetInnerHTML={{ __html: loremText }} />
+    <section className="ma_methode" id="ma_methode">
+      <div className="presentation" style={{ display: "flex", flexDirection: "column" }}><h1>MA METHODE</h1>
+      <Description />
       </div>
       <div className="image"></div>
     </section>
