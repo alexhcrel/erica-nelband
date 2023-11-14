@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/erica-nelband/static/css/main.39de34ae.css",
+    "main.js": "/erica-nelband/static/js/main.d3a165a4.js",
+    "static/media/blandine.jpg": "/erica-nelband/static/media/blandine.6978adf8af635946e069.jpg",
+    "static/media/capture_map.jpg": "/erica-nelband/static/media/capture_map.a304e94ab07dbcd4815f.jpg",
+    "static/media/billets.jpg": "/erica-nelband/static/media/billets.1872f7a53f9ac7b70727.jpg",
+    "static/media/piano-main.jpg": "/erica-nelband/static/media/piano-main.ee3cf801d046644507bb.jpg",
+    "static/media/violon.jpg": "/erica-nelband/static/media/violon.48c42dd7d358af9a1642.jpg",
+    "static/media/enfants.jpg": "/erica-nelband/static/media/enfants.a9589bb1710f24231ac1.jpg",
+    "static/media/piano.jpg": "/erica-nelband/static/media/piano.af900844afda94dacbc5.jpg",
+    "index.html": "/erica-nelband/index.html",
+    "main.39de34ae.css.map": "/erica-nelband/static/css/main.39de34ae.css.map",
+    "main.d3a165a4.js.map": "/erica-nelband/static/js/main.d3a165a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39de34ae.css",
+    "static/js/main.d3a165a4.js"
+  ]
+}
