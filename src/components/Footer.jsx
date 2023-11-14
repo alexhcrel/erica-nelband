@@ -25,8 +25,8 @@ const Footer = () => {
           </ul>
         </nav>
       </div>
-        <h3>Site intégralement réalisé, développé et déployé par <a href="https://alerch.fr" target="_blank" className="styleDeMonLien">alerch.fr</a>.</h3>
-        <h3>Renseignement et contact via ce <a href="https://alerch.fr/#contact" target="_blank" className="styleDeMonLien">formulaire</a>.</h3>
+        <h3>Site intégralement réalisé, développé et déployé par <a href="https://alerch.fr" target="_blank" rel="noreferrer" className="styleDeMonLien">alerch.fr</a>.</h3>
+        <h3>Renseignement et contact via ce <a href="https://alerch.fr/#contact" target="_blank" rel="noreferrer" className="styleDeMonLien">formulaire</a>.</h3>
     </footer>
   );
 };
