@@ -6,7 +6,6 @@
   align-items: center;
 }
 
-
 /*////////////////Ceci correspond au CSS de la Bannière. Il n'y a pas à la retoucher pour l'instant/////////////*/
 .banner {
   display: flex;
@@ -193,12 +192,56 @@ section {
     background-size: 100%;
 }
 
+.infos .image {
+  background: url(../../public/images/capture_map.jpg);
+  background-position: center;
+  object-fit: cover;
+}
 
 
-/*/////////Ceci est mon footer, on attend un peu //////////*/
+/*/////////Ceci est mon footer //////////*/
 
 .footer {
+  margin-top: 56px;
+  padding: 65px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 250px;
+  height: auto;
   background-color: rgb(156, 38, 38);
+  color: white;
+  align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  
+}
+
+.encadrementFooter {
+  justify-content: space-between;
+  width: 50%;
+  display: flex;
+margin-bottom: 85px;  
+}
+
+.encadrementFooter .coordonnees {
+  justify-content: center;
+
+}
+
+.encadrementFooter nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.encadrementFooter nav ul li {
+  line-height: 22px;
+}
+
+.footer h2 {
+ margin: 15px;
+}
+
+.styleDeMonLien {
+  color: rgb(105, 105, 223);
+  font-size: 20px;
 }

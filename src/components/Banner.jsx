@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner">
       <div className="portrait"></div>
       <div>
-        <h1>BIANAINE RONDE : COURS DE MUSIQUE A DOMICILE</h1>
+        <h1>ERICA NELBAND : COURS DE MUSIQUE A DOMICILE</h1>
         <nav className="container">
           <div></div>
           <ul className="banner_de_navigation">
@@ -23,7 +23,7 @@ const Banner = () => {
               <a href="#mes_tarifs">MES TARIFS</a>
             </li>
             <li>
-              <a href="#informations">INFOS PRATIQUES</a>
+              <a href="#infos">INFOS PRATIQUES</a>
             </li>
           </ul>
         </nav>
