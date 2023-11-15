@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/erica-nelband/static/css/main.39de34ae.css",
-    "main.js": "/erica-nelband/static/js/main.d3a165a4.js",
+    "main.js": "/erica-nelband/static/js/main.984d6338.js",
     "static/media/blandine.jpg": "/erica-nelband/static/media/blandine.6978adf8af635946e069.jpg",
     "static/media/capture_map.jpg": "/erica-nelband/static/media/capture_map.a304e94ab07dbcd4815f.jpg",
     "static/media/billets.jpg": "/erica-nelband/static/media/billets.1872f7a53f9ac7b70727.jpg",
@@ -11,10 +11,10 @@
     "static/media/piano.jpg": "/erica-nelband/static/media/piano.af900844afda94dacbc5.jpg",
     "index.html": "/erica-nelband/index.html",
     "main.39de34ae.css.map": "/erica-nelband/static/css/main.39de34ae.css.map",
-    "main.d3a165a4.js.map": "/erica-nelband/static/js/main.d3a165a4.js.map"
+    "main.984d6338.js.map": "/erica-nelband/static/js/main.984d6338.js.map"
   },
   "entrypoints": [
     "static/css/main.39de34ae.css",
-    "static/js/main.d3a165a4.js"
+    "static/js/main.984d6338.js"
   ]
 }
