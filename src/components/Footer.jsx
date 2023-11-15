@@ -17,7 +17,7 @@ const Footer = () => {
         <nav>
           <ul>
           <h2>NAVIGATION</h2>
-            <li><a href="#mon_projet">Mon propos</a></li>
+            <li><a href="#mon_projet">Mon projet</a></li>
             <li><a href="#ma_methode">Ma méthode</a></li>
             <li><a href="#mes_prestations">Mes prestations</a></li>
             <li><a href="#mes_tarifs">Mes tarifs</a></li>

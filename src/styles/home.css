@@ -40,9 +40,11 @@
   padding-bottom: 15px;
 }
 
-.container {
+.navbar__link {
   display: flex;
   padding-top : 45px;
+  width:100%;
+  justify-content: space-between;
 }
 
 ul {
@@ -51,11 +53,10 @@ ul {
   justify-content: space-between;
 }
 
-ul li {
-  cursor: pointer;
-}
+
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: white;
 }
@@ -134,7 +135,6 @@ section {
 
 .image {
   width: 33%;
-  background: pink;
   height: auto;
   border-radius: 25px;
 }

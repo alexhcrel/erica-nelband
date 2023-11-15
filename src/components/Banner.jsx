@@ -6,26 +6,12 @@ const Banner = () => {
       <div className="portrait"></div>
       <div>
         <h1>ERICA NELBAND : COURS DE MUSIQUE A DOMICILE</h1>
-        <nav className="container">
-          <div></div>
-          <ul className="banner_de_navigation">
-            <li>
-              {" "}
-              <a href="#mon_projet">MON PROJET</a>
-            </li>
-            <li>
-              <a href="#ma_methode">MA METHODE</a>
-            </li>
-            <li>
-              <a href="#mes_prestations">MES PRESTATIONS</a>
-            </li>
-            <li>
-              <a href="#mes_tarifs">MES TARIFS</a>
-            </li>
-            <li>
-              <a href="#infos">INFOS PRATIQUES</a>
-            </li>
-          </ul>
+        <nav className="navbar__link">
+          <a href="#mon_projet">MON PROJET</a>
+          <a href="#ma_methode">MA METHODE</a>
+          <a href="#mes_prestations">MES PRESTATIONS</a>
+          <a href="#mes_tarifs">MES TARIFS</a>
+          <a href="#infos">INFOS PRATIQUES</a>
         </nav>
       </div>
     </div>
