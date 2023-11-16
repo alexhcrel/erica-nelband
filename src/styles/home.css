@@ -25,7 +25,7 @@
   height: 200px;
   border-radius: 50%;
   background-color: pink;
-  content: contain;
+  background-size: cover;
   overflow: hidden;
   background: url(../../public/images/blandine.jpg);
   background-position: center;
@@ -52,8 +52,6 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
-
 
 a {
   cursor: pointer;
@@ -183,13 +181,14 @@ section {
     background: url(../../public/images/enfants.jpg);
     height: auto;
     background-position: 0;
-    object-fit: contain;
+    background-size: cover;
 }
 
 .mes_tarifs .image {
     background: url(../../public/images/billets.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+
 }
 
 .infos .image {
@@ -244,4 +243,90 @@ margin-bottom: 85px;
 .styleDeMonLien {
   color: rgb(105, 105, 223);
   font-size: 20px;
+}
+
+/*/////////////////voici le temps des média queries /////////////////*/
+
+@media screen and (max-width: 1210px) {
+  .banner {
+    padding-inline:50px; 
+  }
+  
+  .description p {
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 46px;
+  padding: 45px;
+}
+
+.encadrementFooter {
+  justify-content: space-around;
+  width: 80%;
+  display: flex;
+margin-bottom: 55px;  
+}
+
+}
+
+@media screen and (max-width: 900px) {
+  .portrait {display: none;
+  }
+
+  .banner h1{
+    font-size: 26px;
+    padding-top: 25px;
+  }
+
+.image_deco {
+display:none;
+}
+
+.corps {
+  width: 95%;
+}
+
+.footer {
+  margin-top: 46px;
+  padding: 45px;
+}
+
+.encadrementFooter {
+  justify-content: space-around;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+margin-bottom: 55px;  
+}
+
+.encadrementFooter nav ul {
+  margin-top: 25px;
+}
+
+
+
+}
+
+@media screen and (max-width: 630px) {
+  .navbar__link {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top : 25px;
+    width:100%;
+    justify-content: space-between;
+  }
+
+  a {
+    margin : 10px;
+  }
+
+.image {
+display: none
+}
+
+.presentation {
+  width: 100%;
+}
+
 }
